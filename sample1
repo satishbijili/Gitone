@@ -1,0 +1,13 @@
+#!/bin/bash
+echo " enter your number"
+read number
+echo " your entered number is :"
+if [ $number == 5 ]
+then
+echo " entered number is equal to 5"
+elif [ $number -lt 5 ]
+then
+echo " number is less than 5"
+else
+echo " number is greater than 5"
+fi
