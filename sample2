@@ -1,0 +1,13 @@
+#!/bin/bash
+echo " enter your desired number"
+read number
+echo " your entered number is "
+if [ $number == 0 ]
+then
+echo " entered number is a whole number"
+elif [ $number -le 0 ]
+then 
+echo " entered number is integer "
+else
+echo " entered number is natural number "
+fi
