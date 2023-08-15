@@ -1,5 +1,5 @@
 #!/bin/bash
-echo " enter your number "
+echo " enter your desired number"
 read number
 echo " your entered number is "
 if [ $number == 0 ]
