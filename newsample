@@ -2,7 +2,7 @@
 echo " your age is "
 read age
 echo " your entered age is "
-if [ $age == 18 ]
+if [ $age == 21 ]
 then
 echo " you are eligibale for vote'
 else
