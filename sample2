@@ -7,7 +7,7 @@ then
 echo " entered number is a whole number"
 elif [ $number -le 0 ]
 then 
-echo " entered number is integer"
+echo " entered number is integer "
 else
 echo " entered number is natural "
 fi
