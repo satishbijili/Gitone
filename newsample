@@ -1,0 +1,10 @@
+#!/bin/bash
+echo " your age is "
+read age
+echo " your entered age is "
+if [ $age == 18 ]
+then
+echo " you are eligibale for vote'
+else
+echo " you are not eligible for vote"
+fi
